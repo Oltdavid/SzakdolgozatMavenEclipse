@@ -8,18 +8,18 @@ import javafx.stage.Stage;
 
 public class Sportolok extends Application {
 
-    @Override
-    public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("View.fxml"));
-        Scene scene = new Scene(root);
-        stage.setTitle("Sportolók");
-        stage.setWidth(1390);
-        stage.setHeight(650);
-        stage.setScene(scene);
-        stage.show();
-    }
+	@Override
+	public void start(Stage stage) throws Exception {
+		Parent root = FXMLLoader.load(getClass().getResource("View.fxml"));
+		Scene scene = new Scene(root);
+		stage.setTitle("Sportolók");
+		stage.setWidth(1390);
+		stage.setHeight(650);
+		stage.setScene(scene);
+		stage.show();
+	}
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+	public static void main(String[] args) {
+		launch(args);
+	}
 }
